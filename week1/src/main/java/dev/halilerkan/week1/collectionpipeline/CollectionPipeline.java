@@ -10,6 +10,13 @@ public final class CollectionPipeline {
 
     private CollectionPipeline() {}
 
+    /**
+     * Method to get numbers using for collection pipeline.
+     *
+     * @param numbers {@link List} of {@link Integer} to be used for mutating
+     * @param mutator {@link UnaryOperator} of {@link Integer} to be used for mutate first param
+     * @return {@link List} of {@link Integer} representing mutating numbers
+     */
     public static List<Integer> mapNumbers(List<Integer> numbers, UnaryOperator<Integer> mutator) {
         return numbers.stream()
                 .map(mutator)
