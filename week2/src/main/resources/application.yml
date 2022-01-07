@@ -1,0 +1,22 @@
+server:
+  port: 8082
+
+spring:
+  h2:
+    console:
+      enabled: true
+  sql:
+    init:
+      platform: h2
+  datasource:
+    url: jdbc:h2:mem:dcbapp
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    defer-datasource-initialization: true
+
+springdoc:
+  api-docs:
+    enabled: true
