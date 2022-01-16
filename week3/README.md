@@ -24,6 +24,10 @@ chmod +x ./infra-up.sh
 
 komutunu çalıştırın.
 
+### Redis Entegrasyonu
+
+Data'nın cache'den getirilmesi ile ilgili örneği MovieServiceImpl class'ında bulabilirsiniz.
+
 ### Swagger
 
 Link: **<http://localhost:8080/swagger-ui/index.html>**
