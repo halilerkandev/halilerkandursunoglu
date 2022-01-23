@@ -36,7 +36,7 @@ Link: **<http://localhost:8080/swagger-ui/index.html>**
 
 ### 1. [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) yazısını okuyup özetini çıkarınız
 
-[Cevabın bulunduğu dosyanın linki](https://martinfowler.com/articles/practical-test-pyramid.html)
+[Cevabın bulunduğu dosyanın linki](https://github.com/Payten-Java-Spring-Bootcamp/halilerkandursunoglu/blob/main/week4/the-practical-test-pyramid.md)
 
 ### 2. Regression test nedir ? Kısaca açıklayınız
 
